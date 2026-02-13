@@ -38,4 +38,4 @@ FROM
     ws_filtered
 ORDER BY 
     id
-) TO STDOUT;
+) TO STDOUT WITH CSV HEADER;
